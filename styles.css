@@ -1,11 +1,101 @@
 body{
     margin: 0;
     display: flex;
+    background-color: #E7E9EA ;
 }
 .img{
     display: flex;
     background-image: url(/images/halie-west-25xggax4bSA-unsplash.jpg);
     height: 100vh;
-    width: 40vw;
+    width: 60vw;
     background-size: cover;
+}
+
+.prim-text{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bolder;
+    font-size: larger
+}
+.sec-text{
+    font: italic;
+    margin-bottom: 20px;
+}
+
+.right-body{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-items: stretch;
+    margin: 10vh 10vw 5px 5vw;
+}
+
+.mainform{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+section{
+  
+    display: flex;
+    flex-grow: 0;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
+.form-control{
+    display: inline-block
+    flex-direction: row;
+    
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    border: #49474700 2px solid;
+}
+legend{
+    margin-bottom: 1em;
+    color: rgb(61, 60, 60);
+    font-size: 1.75em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+
+label{
+    
+    font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+input{
+    border: black 1px solid;
+}
+
+.submitdiv{
+    display: flex;
+    justify-self: start;
+    margin-top: 50px;
+}
+
+button{
+    padding: 10px 30px;
+    background-color: #596D48;
+    color: aliceblue;
+    border-radius: 6px;
+    font-size: large;
+    font-weight: bolder;
+    border-color:#596D48;
+    border: none;
+}
+
+a{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #596D48;
+    text-decoration: none;
 }

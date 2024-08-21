@@ -5,6 +5,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -14,30 +23,46 @@
     </div>
     <div class="right-body">
         <header>
-            <h1>
-                this is not ar real online seive <br />
-                iahfhfjaj life get started. <br />signup now to get started
-            </h1>
+            <p class="prim-text">
+                This is not a real online service! you know you need something like this in your life to help you
+                realize your deepest dreams. <br>Sign up now to get started
+            </p>
+            <p class="prim-text sec-text"><i>You know you want to.</i></p>
+
         </header>
-        <form action="" method="post">
+        <form class="mainform" action="" method="post">
+            <fieldset>
             <legend>Lets do this!</legend>
             <section>
-                <label for="first_name">FIRST NAME:</label>
-                <input type="text" id="first_name"></input>
-                <label for="last_name">LAST NAME</label>
-                <input type="text" id="last_name"></input>
-                <label for="email">EMAIL</label>
-                <input type="email" id="email"></input>
+                <div class="form-control">
+                    <label for="first_name">FIRST NAME:</label>
+                    <input type="text" id="first_name"></input>
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" id="last_name"></input>
+                </div>
+                <div class="form-control">
+                    <label for="phone_number">PHONE NUMBER</label>
+                    <input type="tel" id="phone_number"></label>
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email"></input>
+                </div>
+                <div class="form-control">
                 <label for="password">PASSWORD</label>
                 <input type="password" id="password"></input>
+                
+                    <label for="confirm_password">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm_password"></input>
+                </div>
             </section>
             <div class="submitdiv">
                 <button type="submit">Create Account</button>
             </div>
+        </fieldset>
+    </form>
             <div class="logindiv">
                 <p>Already have an account? <a href="">Login</a></p>
             </div>
-        </form>
+        
     </div>
     <footer></footer>
 </body>
