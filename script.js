@@ -13,3 +13,5 @@ loginLink.addEventListener("click", (e) => {
     alert("login cheyan evadra account ninak");
     e.preventDefault()
 })
+
+console.log("Hello World2")
